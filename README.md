@@ -43,9 +43,9 @@ Example Output
     # After modifying a file:
     [ALERT] File modified: important.txt
 
-📄 License
+#### 📄 License
 This project is for educational use as part of an internship task.
 
-🧑‍💻 Author
+##### 🧑‍💻 Author
 Bhuvanesh
 Intern at CodTech
