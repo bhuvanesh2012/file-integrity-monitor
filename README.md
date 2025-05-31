@@ -11,7 +11,6 @@ FileMonitorProject/
 ├── hash_store.json # Auto-generated hash store (ignored in Git)
 └── .gitignore # Excludes the hash_store.json
 
-
 ## ⚙️ How It Works
 
 1. On first run, the script scans all files in the folder and stores their hash values.
@@ -25,27 +24,38 @@ FileMonitorProject/
 - Detects deleted files
 - Uses SHA-256 hashing for integrity checking
 
+📄 License
+
+This project is for educational use as part of an internship task.
+
+🧑‍💻 Author
+Bhuvanesh
+Intern at CodTech
+
 ## 🚀 Usage
 
-### 1. Clone the repo or download the files:
+📦 Requirements
+Python 3.x
+
+No external libraries required — uses built-in hashlib and os.
+
+🙈 .gitignore
+We recommend ignoring hash_store.json to avoid storing machine-specific data in Git.
+
+hash_store.json
+
+### Clone the repo or download the files:
 ```bash
 git clone https://github.com/yourusername/file-integrity-monitor.git
 cd file-integrity-monitor
 
 Run the script:
-  python file_integrity_monitor.py
+python file_integrity_monitor.py
 
-Example Output
-      === File Integrity Monitor ===
-    [INFO] New file added to monitoring: important.txt
-    [INFO] New file added to monitoring: config.ini
+🧪 Example Output
+=== File Integrity Monitor ===
+[INFO] New file added to monitoring: important.txt
+[INFO] New file added to monitoring: config.ini
 
-    # After modifying a file:
-    [ALERT] File modified: important.txt
-
-#### 📄 License
-This project is for educational use as part of an internship task.
-
-##### 🧑‍💻 Author
-Bhuvanesh
-Intern at CodTech
+# After modifying a file:
+[ALERT] File modified: important.txt
