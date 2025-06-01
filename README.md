@@ -5,10 +5,15 @@ This is a simple Python tool that monitors changes in important files by calcula
 ## 📁 Project Structure
 
 FileMonitorProject/
+
 ├── file_integrity_monitor.py # Main Python script
+
 ├── config.ini # Sample config file
+
 ├── important.txt # Sample monitored file
+
 ├── hash_store.json # Auto-generated hash store (ignored in Git)
+
 └── .gitignore # Excludes the hash_store.json
 
 ## ⚙️ How It Works
