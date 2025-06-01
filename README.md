@@ -24,14 +24,6 @@ FileMonitorProject/
 - Detects deleted files
 - Uses SHA-256 hashing for integrity checking
 
-📄 License
-
-This project is for educational use as part of an internship task.
-
-🧑‍💻 Author
-Bhuvanesh
-Intern at CodTech
-
 ## 🚀 Usage
 
 📦 Requirements
@@ -48,14 +40,25 @@ hash_store.json
 ```bash
 git clone https://github.com/yourusername/file-integrity-monitor.git
 cd file-integrity-monitor
-
+```
 Run the script:
 python file_integrity_monitor.py
 
-🧪 Example Output
+### 🧪 Example Output
+Before modifying a file:
+```bash
 === File Integrity Monitor ===
 [INFO] New file added to monitoring: important.txt
 [INFO] New file added to monitoring: config.ini
+```
+#### |Add or remove some contents inside the txt file|
 
-# After modifying a file:
+After modifying a file:
+```bash
 [ALERT] File modified: important.txt
+```
+---
+### 🧑‍💻 Author
+Name: Bhuvanesh
+
+CodTech Intern
