@@ -4,17 +4,17 @@ This is a simple Python tool that monitors changes in important files by calcula
 
 ## 📁 Project Structure
 
-FileMonitorProject/
+**FileMonitorProject/**
 
-├── file_integrity_monitor.py # Main Python script
+├── **file_integrity_monitor.py** # Main Python script
 
-├── config.ini # Sample config file
+├── **config.ini** # Sample config file
 
-├── important.txt # Sample monitored file
+├── **important.txt** # Sample monitored file
 
-├── hash_store.json # Auto-generated hash store (ignored in Git)
+├── **hash_store.json** # Auto-generated hash store (ignored in Git)
 
-└── .gitignore # Excludes the hash_store.json
+└── **.gitignore** # Excludes the hash_store.json
 
 ## ⚙️ How It Works
 
@@ -62,6 +62,14 @@ After modifying a file:
 
 ---
 ### 🧑‍💻 Author
-Name: Bhuvanesh
+**COMPANY:** CODTECH IT SOLUTIONS
 
-CodTech Intern
+**NAME:** Bhuvanesh D
+
+**INTERN ID:** CT04DN710
+
+**DOMAIN:** CYBER SECURITY AND ETHICAL HACKING
+
+**DURATION:** 4 WEEKS
+
+**MENTOR:** NEELA SANTHOSH KUMAR
