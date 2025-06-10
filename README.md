@@ -51,11 +51,9 @@ python file_integrity_monitor.py
 
 ### 🧪 Example Output
 Before modifying a file:
-```bash
-=== File Integrity Monitor ===
-[INFO] New file added to monitoring: important.txt
-[INFO] New file added to monitoring: config.ini
-```
+
+![Image](https://github.com/user-attachments/assets/214ae41d-f4f0-49f2-b469-c92c9fb0de41)
+
 #### |Add or remove some contents inside the txt file|
 
 After modifying a file:
