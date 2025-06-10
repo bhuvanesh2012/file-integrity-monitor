@@ -57,9 +57,9 @@ Before modifying a file:
 #### |Add or remove some contents inside the txt file|
 
 After modifying a file:
-```bash
-[ALERT] File modified: important.txt
-```
+
+![Image](https://github.com/user-attachments/assets/f33c852f-e3b4-486d-89d6-708988cca7dd)
+
 ---
 ### 🧑‍💻 Author
 Name: Bhuvanesh
